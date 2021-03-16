@@ -71,10 +71,13 @@ You will need a Raspberry Pi 3, running Raspian Stretch. You
 can use the [Noobs] release to install the latest version of Raspian.
 
 ### Disable wpa_supplicant on Raspberry Pi
+### But first you must to configurate de wifi country
 
 You do not want the default **[wpa_supplicant]** (the software that communicates
 with the wifi driver and connects to Wifi networks,) running and competing
 with the **IOT Wifi** container.
+
+
 
 ```bash
 # prevent wpa_supplicant from starting on boot
